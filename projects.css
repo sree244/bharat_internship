@@ -1,0 +1,48 @@
+/* div{
+    margin-left:300px;
+    margin-top:190px;
+    border:2px solid azure;
+    padding:30px;
+    width:500px;
+    background-color: azure;
+    font-family: 'Times New Roman', Times, serif;
+} */
+body.skills{
+    background-image: url("skills.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* opacity: 0.4; */
+}
+body.projects{
+    background-image: url("project.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* opacity: 0.4; */
+}
+ul:hover{
+    text-shadow: 1px 1px 5px rgb(90, 87, 87);
+    cursor: pointer;
+}
+li{
+    list-style-type: none;
+    border:0px solid #fff;
+    padding:30px;
+    font-weight: bold;
+    color:black;
+    background-color:#ffffff,0.9;
+    font-family: 'Times New Roman', Times, serif;
+    opacity:0.9;
+}
+ol:hover{
+    text-shadow: 1px 1px 5px rgb(90, 87, 87);
+    cursor:pointer;
+}
+a{
+    text-decoration: none;
+    margin:10px;
+    padding:20px;
+    border:0px solid #fff;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
